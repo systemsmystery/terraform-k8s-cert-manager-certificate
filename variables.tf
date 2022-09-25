@@ -3,7 +3,7 @@ variable "type" {
     default     = "staging"
 }
 
-variable "domain" {
+variable "domain_name" {
   description = "The domain name for the issuer"
 }
 
