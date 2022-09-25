@@ -9,7 +9,7 @@ resource "kubernetes_manifest" "certificate" {
     "spec" = {
       "commonName" = var.domain_name
       "dnsNames" = [
-        var.domain
+        var.domain_name
       ]
       "issuerRef" = {
         "kind" = "ClusterIssuer"
